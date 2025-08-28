@@ -1,5 +1,6 @@
-body{
+*{
     margin:0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     color:#222;
     background:#f7f7fb;
@@ -61,6 +62,10 @@ main section{
     border-radius:3%;
     padding:4%;
     margin-bottom:4%;
+}
+
+span {
+    font-weight: bold;
 }
 
 .principal{
@@ -162,7 +167,6 @@ textarea{
     display:block;
     background:#fbfcff;
 }
-textarea{ height:22vh }
 input[type="submit"]{
     background:#d94b5a; 
     color:#fff; 
