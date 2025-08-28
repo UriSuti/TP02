@@ -60,10 +60,6 @@ nav a{
     border-radius:8px;
 }
 
-li.actual a,
-nav a:hover{ 
-    background:#b43c48; 
-}
 li.actual a{
     color: #1e1e1e;
         
@@ -109,6 +105,13 @@ span {
 
 }
 
+.principalContacto{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
 
 .mapa{
     background:#fffffe;
@@ -146,7 +149,9 @@ span {
 .productos img{
     width:80%; 
 }
-
+.productos img:hover{
+    width:100%; 
+}
 .productos p{
     text-align:center;
     font-weight:bold;
@@ -190,7 +195,7 @@ span {
 form{
     border:1px solid #e1e3e8;
     border-radius:12px;
-    padding:2% 3%;
+    padding:2% 5%;
     width:100%;
     max-width:90%;
     background:#fff;
@@ -207,6 +212,7 @@ textarea{
     display:block;
     background:#fbfcff;
 }
+
 input[type="submit"]{
     background:#d94b5a; 
     color:#fff; 
