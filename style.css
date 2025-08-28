@@ -27,9 +27,22 @@ header{
     align-items:center;
     justify-content:space-between;
 }
+
 header h1 a{
-    font-size:120%;
+    font-size:150%;
     color:rgb(173, 36, 36);
+}
+
+header nav ul li a {
+    font-size:120%;
+    margin-right: 60px;
+}
+
+header nav ul li a:hover{
+    font-size:120%;
+    margin-right: 60px;
+    color: #000000;
+    background-color: #d94b5a;
 }
 
 nav ul{
@@ -46,12 +59,14 @@ nav a{
     padding:1% 2%;
     border-radius:8px;
 }
+
 li.actual a,
 nav a:hover{ 
     background:#b43c48; 
 }
 li.actual a{
     color: #1e1e1e;
+        
 }
 
 main{ 
@@ -166,7 +181,7 @@ span {
     background:#fbfbff; 
 }
 .nosotros .persona:last-child{ 
-background:#f9f9ff; 
+    background:#f9f9ff; 
 }
 .nosotros .persona h5{ 
     color:#90a9c6; 
