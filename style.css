@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
 }
-
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     color:#222;
     background:#f7f7fb;
@@ -20,9 +19,9 @@ a:hover{
 }
 
 header{
-    top:0px;
     position:sticky;
-    background:#da7272;
+    top: 0px;
+    background:#d94b5a;
     padding:1% 4%;
     display:flex;
     align-items:center;
@@ -56,7 +55,7 @@ li.actual a{
 }
 
 main{ 
-    padding:12% 4% 4% 4%;
+    padding:5% 4% 4% 4%;
 }
 
 main section{
@@ -73,21 +72,40 @@ span {
 
 .principal{
     display:flex;
-    flex-direction:column;
 }
 .principal img{
-    width:48%;
+    width:50%;
     border-radius:10px;
     border:1px solid #e1e3e8;
 }
 .principal p{ 
     width:70%; 
 }
+.principal .imgs{
+
+    display: flex;
+    align-items: center;
+}
+.principal .txts h1{
+
+    font-size: xxx-large;
+    margin-top: 10%;
+    margin-bottom: 20%;
+
+}
+
 
 .mapa{
     background:#fffffe;
 }
+.mapa h2, .mapa p{
+
+    margin-top: 2%;
+
+}
+
 .mapa iframe{
+    margin-top: 5%;
     width:100%;
     height:60%;
     border:0;
@@ -95,32 +113,32 @@ span {
 }
 
 .productos section{
-    display:flex;
-    flex-wrap:wrap;
-    gap:3%;
-    justify-content:center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
+
 .productos section div{
     display:flex;
     flex-direction:column;
     align-items:center;
     justify-content:flex-start;
-    border:1px solid #e1e3e8;
     border-radius:12px;
     padding:6% 4%;
     margin-bottom:3%;
 }
+
 .productos img{
-    width:80%;
-    border-radius:8px;
-    border:1px solid #e1e3e8;
+    width:80%; 
 }
+
 .productos p{
     text-align:center;
     font-weight:bold;
     color:#394452;
 }
-.productos section a{
+
+.productos a{
     text-align:center;
     background:#d94b5a;
     color:#fff;
@@ -129,23 +147,28 @@ span {
     font-weight:bold;
 }
 
+.nosotros .containerPersonas{
 
-#nosotros .persona{
+    display: flex;
+    
+}
+
+.nosotros .persona{
     display:flex;
     flex-direction:column;
-    gap:2%;
     border:1px solid #e1e3e8;
     border-radius:10px;
     padding:4%;
-    margin:3% 0;
+    margin-top: 2%;
+    margin:3%;
 }
-#nosotros .persona:first-child{ 
+.nosotros .persona:first-child{ 
     background:#fbfbff; 
 }
-#nosotros .persona:last-child{ 
-    background:#f9f9ff; 
+.nosotros .persona:last-child{ 
+background:#f9f9ff; 
 }
-#nosotros .persona h5{ 
+.nosotros .persona h5{ 
     color:#90a9c6; 
 }
 
