@@ -115,6 +115,7 @@ span {
 
 .mapa{
     background:#fffffe;
+    display: flex;
 }
 .mapa h2, .mapa p{
 
@@ -147,10 +148,9 @@ span {
 }
 
 .productos img{
-    width:80%; 
-}
-.productos img:hover{
-    width:100%; 
+
+    width: 300px;
+
 }
 .productos p{
     text-align:center;
